@@ -17,7 +17,7 @@ else:
     ])
 
 # Заголовок приложения
-st.title('Product Review Analyzer')
+st.title('Product Review Analyzer V2')
 
 # Форма для ввода данных
 st.header('Enter new product data')

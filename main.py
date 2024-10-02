@@ -17,7 +17,7 @@ else:
     ])
 
 # Заголовок приложения
-st.title('Product Review Analyzer V2')
+st.title('Product Review Analyzer')
 
 # Форма для ввода данных
 st.header('Enter new product data')
@@ -69,8 +69,6 @@ def color_code(val):
         color = 'yellow'
     elif 8 <= val <= 10:
         color = 'green'
-    elif 10 <= val <= 30:
-        color = 'red'
     return f'background-color: {color}'
 
 # Отображение данных с цветовой кодировкой
